@@ -1,4 +1,4 @@
-Okay, let's generalize the pattern for N services participating in the same transaction. The core principle remains the same: a central orchestration service manages the transaction and coordinates the other services. We'll enhance the example to accommodate this.
+Transactor Pattern for N services participating in the same transaction. The core principle remains the same: a central orchestration service manages the transaction and coordinates the other services. We'll enhance the example to accommodate this.
 
 **1. Orchestration Service (Generalized):**
 
