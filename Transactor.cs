@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore.Storage;
 namespace App.Sources.Infra.Persistence.Transactor
 {
 
-
 	public interface IAtomicTransactor : IDisposable, IAsyncDisposable // Implement IAsyncDisposable
 	{
 		Task BeginTransactionAsync(CancellationToken cancellationToken = default);
